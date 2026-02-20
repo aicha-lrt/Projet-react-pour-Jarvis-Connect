@@ -36,7 +36,11 @@ Nous sommes fin prêts à lancer le serveur et avoir un aperçu du site !
 ### Lancement du seveur
 
 Afin de voir le site sur le navigateur, dans le même terminal que précédemment, on lancera la commande `npm run dev`. Vite fera apparaître un URL `https://localhost:XXXX/`  dans le terminal, il suffira de cliquer dessus pour accéder au site.
-<br/> 
+
+<p align="center">
+  <img width="467" height="264" alt="image" src="https://github.com/user-attachments/assets/2ffddb40-df34-4322-9bfc-e7fad0640504" />
+</p>
+
 Le serveur est désormais lancé, et le site est accessible !
 <br/>
 *Pour fermer le serveur, il faudra appuyer sur les touches `CTRL` + `C` dans le terminal. Cela éteindra le serveur, et le site ne sera ainsi plus accessible (jusqu'à ce que le serveur soit de nouveau initialisé)*
@@ -57,6 +61,10 @@ L'objectif était de trouver un moyen de faire communiquer les pages entre elles
 
 L'objectif était de faire en sorte que chaque page soit lisible peu importe la largeur d'un écran. Cependant, les menus de la barre de navigation disparaissaient si l'écran devenait trop petit (de la largeur d'un téléphone).
 <br/> J'ai ainsi mis en place un **menu hamburger** qui n'apparaîtrait que sous certaines conditions. J'ai utilisé un état react `isOpen` qui permettrait d'afficher ou masquer un menu sur mobile. De plus, grâce aux classes `hidden md:flex` de Tailwind CSS, j'ai pu faire en sorte que le menu déroulant se déroule à la vertical sur mobile (au lieu d'être horizontal, comme sur ordinateur).
+
+<p align="center">
+  <img width="609" height="364" alt="image" src="https://github.com/user-attachments/assets/674d5787-fa5e-4212-8cb8-3f9c70202bfc" />
+</p>
 
 ## Conclusion
 
